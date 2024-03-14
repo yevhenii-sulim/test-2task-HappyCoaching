@@ -34,6 +34,7 @@
     &.hidden{
       transform:rotate(45deg) translatey( -50%);
       top: 10%;
+      background: #000;
 
     }
   }
@@ -42,6 +43,7 @@
     &.hidden{
       transform:rotate(-45deg) translatey(-50%);
       bottom: 10%;
+      background: #000;
     }
   }
   &--open{

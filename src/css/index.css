@@ -163,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #333461;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .text-option {
   color: rgba(74, 85, 108, 0.4392156863);
 }
@@ -240,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 .button-menu--top.hidden {
   transform: rotate(45deg) translatey(-50%);
   top: 10%;
+  background: #000;
 }
 .button-menu--bottom {
   bottom: 20%;
@@ -247,6 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 .button-menu--bottom.hidden {
   transform: rotate(-45deg) translatey(-50%);
   bottom: 10%;
+  background: #000;
 }
 .button-menu--open {
   top: 50%;
