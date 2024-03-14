@@ -26,23 +26,6 @@ function toggleMenu (){
 	}
 }
 
-const questionList = document.querySelector(".question-list")
-questionList.addEventListener('click', toggleQuestionText)
-
-function toggleQuestionText(evt){
-	const question = evt.target.closest('li');
-	const questionSignOpenClose = question.querySelector('.open-close');
-	const textQuestion = question.querySelector(".text-question")
-	console.log( questionSignOpenClose)
-	if(textQuestion.classList.contains("hidden")){
-		textQuestion.classList.remove('hidden');
-		questionSignOpenClose.style = `background-position: -11px -98px`
-	} else {
-		textQuestion.classList.add('hidden');
-		questionSignOpenClose.style = `background-position: -55px -96px`
-	}
-}
-
 function closeMenu (evt){
 	if (evt.currentTarget === evt.target){
 		if (!backdrop.classList.contains('hidden')){
